@@ -1,0 +1,19 @@
+create database users;
+create table users(
+id int primary key,
+Name varchar(45),
+Email varchar(50),
+Role varchar(40)
+);
+insert into users values(1,"Deepika","deepikaranjan854@gamil.com","Software Developer");
+insert into users values(2,"swetha","swetha123@gamil.com","web Developer");
+insert into users values(3,"Shankar","shankar924@gamil.com","Team lead");
+insert into users values(4,"Yudeep","Yudeep17@gamil.com","HR");
+insert into users values(5,"Kavitha","kavitha182@gamil.com","Engineer");
+insert into users values(6,"Gayathri","gayathri131@gamil.com","Supervisor");
+insert into users values(7,"Lincy","Lincy186@gamil.com","Data Analyst");
+insert into users values(8,"Ranjan","Ranjan176@gamil.com","CEO");
+
+select*from users;
+select*from users
+where id="4";
